@@ -1,0 +1,307 @@
+body,
+.header,
+.gallery,
+.features,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+/* Import Font Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Start Header */
+
+.header {
+	min-height: 100%;
+	background-image: radial-gradient(
+			189.96% 61.18% at 50% 38.82%,
+			rgba(255, 181, 72, 0) 0%,
+			rgba(52, 44, 29, 0.80319) 73.22%,
+			#08090a 99.74%
+		),
+		url("../assets/group-1.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+/* End Header */
+
+/* Start Navbar */
+
+.nav-custom {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: "Open Sans", sans-serif;
+}
+
+.navbar-dark,
+.nav-custom a {
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+
+.navbar-toggler {
+	border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-link {
+	font-size: 10px;
+	letter-spacing: 0.1em;
+}
+
+/* End Navbar */
+
+/* Start Header Title */
+
+.header__title {
+	margin-top: 130.06px;
+	letter-spacing: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__title h1 {
+	font-size: 38px;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+}
+
+.header__title h3 {
+	font-size: 19px;
+	letter-spacing: 2px;
+	margin: 49px 0;
+}
+
+.header__title .btn {
+	background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+	padding: 10px;
+	width: 15rem;
+}
+
+.header__title-story-btn {
+	font-family: "Open Sans", sans-serif;
+	padding: 14.625rem 0 5.32rem;
+}
+
+.header__title-story-btn a {
+	text-decoration: none;
+}
+
+/* End Header Title */
+
+/* Start Gallery */
+
+.gallery {
+	background-image: radial-gradient(
+			136.03% 54.57% at 50% 48.04%,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(0, 0, 0, 0) 60.63%,
+			#080a0b 99.74%
+		),
+		url("../assets/bg-image2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 200px 0;
+	overflow: hidden;
+}
+
+.gallery__text {
+	text-align: center;
+}
+
+.gallery__text h3 {
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+
+.gallery__text h1 {
+	font-size: 22px;
+	line-height: 64px;
+	letter-spacing: 3px;
+}
+
+.gallery__carousel {
+	margin-top: 20px;
+}
+
+/* End Gallery */
+
+/* Start Features */
+
+.features {
+	background-image: radial-gradient(
+			51.1% 80.48% at 30.85% 53.65%,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(0, 0, 0, 0) 19.2%,
+			rgba(4, 5, 6, 0.520671) 47.48%,
+			#080a0b 99.74%
+		),
+		url("../assets/features.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40%;
+	padding: 169.09px 0;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.features__text {
+	text-align: center;
+}
+
+.features__text h3 {
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+
+.features__text h1 {
+	font-size: 22px;
+	line-height: 64px;
+	letter-spacing: 3px;
+}
+
+.features__timeline {
+	text-align: left;
+	list-style-type: none;
+	position: relative;
+} /* Permulaan membuat sebuah timeline */
+
+.features__timeline:before {
+	content: " ";
+	background: #d4d9df;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 64.5%;
+	z-index: 400;
+} /* Membuat & memberi panjang garis putih */
+
+.features__timeline > li:nth-child(1):before {
+	content: " ";
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
+} /* Membuat lingkaran berisi warna putih */
+
+.features__timeline > li:nth-child(1) {
+	margin: 20px 0 0;
+	padding-left: 20px;
+} /* Mengatur jarak tulisan untuk timeline pertama  */
+
+.features__timeline > li:nth-child(2):before {
+	content: " ";
+	border: 1px solid #fff;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
+} /* Membuat lingkaran kedua yang tidak berisi warna */
+
+.features__timeline > li:nth-child(2) {
+	margin: 100px 0 0;
+	padding-left: 20px;
+} /* Mengatur jarak tulisan untuk timeline kedua */
+
+.features__timeline > li:nth-child(3):before {
+	content: " ";
+	border: 1px solid #fff;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
+} /* Membuat lingkaran ketiga */
+
+.features__timeline > li:nth-child(3) {
+	margin: 50px 0 0;
+	padding-left: 20px;
+} /* Mengatur jarak tulisan untuk timeline ketiga */
+
+.features__timeline li p:nth-child(1) {
+	color: #ffb548;
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px #08090a;
+} /* Mengatur tulisan paragraf pertama dari induk li dalam .features__timeline */
+
+.features__timeline li p:nth-child(2) {
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	text-shadow: 2px 2px 5px #08090a;
+} /* Mengatur tulisan paragraf kedua dari induk li dalam .features__timeline */
+
+/* End Features */
+
+/* Start System */
+
+.system {
+	background-image: radial-gradient(
+			33.26% 45% at 64.32% 47.1%,
+			rgba(255, 255, 255, 0) 3.36%,
+			rgba(0, 0, 0, 0) 19.22%,
+			#080a0b 99.74%
+		),
+		url(../assets/bg-image4.png);
+	background-size: cover;
+	background-position: 70%;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.system h3 {
+	padding-top: 145.33px;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 2px;
+}
+
+.system h1 {
+	margin-top: 3.518rem;
+	font-size: 22px;
+	letter-spacing: 3px;
+	padding-right: 50%;
+}
+
+.system table {
+	margin-bottom: 10.676rem;
+	border: 1px solid #979797;
+}
+
+.system table td {
+	padding: 0.938rem;
+}
+
+.system__table-txt p:first-child {
+	color: #ffb548;
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+.system__table-txt p:last-child {
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+/* End System */
