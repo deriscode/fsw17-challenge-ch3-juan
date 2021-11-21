@@ -360,6 +360,14 @@ body {
 	margin-top: 3.974rem;
 }
 
+.top-scores__review:nth-child(2) {
+	margin: 1.873rem 0;
+}
+
+.top-scores__review:nth-child(3) {
+	margin-bottom: 3.974rem;
+}
+
 .top-scores__review .top-scores__review-img {
 	height: 65.27px;
 	width: 65.27px;
