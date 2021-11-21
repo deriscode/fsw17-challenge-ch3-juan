@@ -22,7 +22,7 @@
 	/* Start System */
 
 	.system {
-		background-position: -8%;
+		background-position: 60%;
 	}
 
 	.system h1 {
@@ -144,21 +144,65 @@
 	}
 
 	/* End System */
+
+	/* Start Top-Scores */
+
+	.top-scores__heading {
+		text-align: left;
+		padding-top: 21.254rem;
+	}
+
+	.top-scores__heading h1 {
+		font-size: 56px;
+	}
+
+	.top-scores__heading p {
+		font-size: 18px;
+	}
+
+	.top-scores__review:nth-child(1) {
+		margin-top: 9.974rem;
+	}
+
+	.top-scores__review:nth-child(2) {
+		margin: 1.873rem 0;
+	}
+
+	.top-scores__profile p:first-child {
+		font-size: 24px;
+	}
+
+	.top-scores__profile p:last-child {
+		font-size: 18px;
+	}
+
+	.top-scores__quote p:first-child {
+		font-size: 18px;
+	}
+
+	.top-scores__quote p:last-child {
+		font-size: 14px;
+		line-height: 19px;
+		color: #ffffff;
+		opacity: 0.5;
+	}
+
+	/* End Top-Scores */
 }
 
 /* Resolusi Laptop Sedang */
-@media (min-width: 1279.98px) {
+@media (min-width: 1099.98px) {
 	/* Start Features */
 
 	.features__timeline:before {
-		height: 64%;
+		height: 69.5%;
 	} /* Membuat & memberi panjang garis putih */
 
 	/* End Features */
 }
 
 /* Resolusi Laptop Besar */
-@media (min-width: 1439.98px) {
+@media (min-width: 1199.98px) {
 	/* Start Features */
 
 	.features__timeline {
@@ -166,7 +210,7 @@
 	} /* Permulaan membuat sebuah timeline */
 
 	.features__timeline:before {
-		height: 64.5%;
+		height: 64%;
 	} /* Membuat & memberi panjang garis putih */
 
 	/* End Features */

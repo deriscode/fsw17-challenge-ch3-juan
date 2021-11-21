@@ -1,8 +1,4 @@
-body,
-.header,
-.gallery,
-.features,
-section {
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -13,7 +9,6 @@ section {
 /* Start Header */
 
 .header {
-	min-height: 100%;
 	background-image: radial-gradient(
 			189.96% 61.18% at 50% 38.82%,
 			rgba(255, 181, 72, 0) 0%,
@@ -80,8 +75,12 @@ section {
 
 .header__title .btn {
 	background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+	border-radius: 4px;
 	padding: 10px;
 	width: 15rem;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Open Sans", sans-serif;
 }
 
 .header__title-story-btn {
@@ -296,12 +295,116 @@ section {
 .system__table-txt p:first-child {
 	color: #ffb548;
 	text-shadow: 2px 2px 5px #08090a;
+	font-size: 19px;
 }
 
 .system__table-txt p:last-child {
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
 	text-shadow: 2px 2px 5px #08090a;
+	font-size: 13px;
 }
 
 /* End System */
+
+/* Start Top-Scores */
+
+.top-scores {
+	background-image: radial-gradient(
+			70.52% 37.27% at 24.21% 47.47%,
+			rgba(35, 15, 15, 0) 0%,
+			rgba(0, 0, 0, 0) 51.1%,
+			#080a0b 99.74%
+		),
+		url(../assets/bg-image3.jpg);
+	background-repeat: no-repeat;
+}
+
+.top-scores__heading {
+	padding-top: 7.254rem;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.top-scores__heading h1 {
+	font-size: 22px;
+	line-height: 64px;
+	letter-spacing: 3px;
+}
+
+.top-scores__heading p {
+	font-size: 13px;
+	line-height: 22px;
+	margin: 36.07px 0 40px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.top-scores__heading .btn {
+	background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+	border-radius: 4px;
+	padding: 10px;
+	width: 15rem;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.top-scores__review {
+	background-color: rgba(255, 255, 255, 0.08);
+	border-radius: 10px;
+	padding: 1.25rem;
+	font-family: "Open Sans", sans-serif;
+}
+
+.top-scores__review:nth-child(1) {
+	margin-top: 3.974rem;
+}
+
+.top-scores__review .top-scores__review-img {
+	height: 65.27px;
+	width: 65.27px;
+	box-shadow: 10px 3px #ffb548;
+	object-fit: none;
+}
+
+.top-scores__review:nth-child(2) .top-scores__review-img {
+	object-fit: fill;
+}
+
+.top-scores__profile p:first-child {
+	line-height: 28px;
+	letter-spacing: 2px;
+	color: #ffb548;
+	padding-left: 10px;
+	font-size: 19px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores__profile p:last-child {
+	line-height: 22px;
+	color: #fff;
+	opacity: 0.5;
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.top-scores__profile-socmed {
+	color: #fff;
+	opacity: 0.3;
+	font-size: 22px;
+}
+
+.top-scores__quote p:first-child {
+	font-size: 15px;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.top-scores__quote p:last-child {
+	font-size: 11px;
+	line-height: 19px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+/* End Top-Scores */
