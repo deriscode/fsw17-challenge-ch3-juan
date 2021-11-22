@@ -321,7 +321,7 @@ body {
 }
 
 .top-scores__heading {
-	padding-top: 7.254rem;
+	padding-top: 3.254rem;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
@@ -416,3 +416,97 @@ body {
 }
 
 /* End Top-Scores */
+
+/* Start Newsletter */
+
+.newsletter {
+	background-color: #080a0b;
+	background-image: url(../assets/newsletter-img.png);
+	background-repeat: no-repeat;
+	background-position: 196%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 10rem 0;
+}
+
+.newsletter h3 {
+	line-height: 28px;
+	letter-spacing: 2px;
+	font-size: 19px;
+	text-shadow: 2px 2px 5px #08090a;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h1 {
+	line-height: 28px;
+	letter-spacing: 3px;
+	font-size: 19px;
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+.newsletter p {
+	line-height: 22px;
+	font-size: 13px;
+	text-shadow: 2px 2px 5px #08090a;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: "Open Sans", sans-serif;
+}
+
+.newsletter input.form-control {
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid #000 !important;
+	border-radius: 5px;
+	padding: 27px 0 10px 15px;
+	font-size: 18px;
+}
+
+.newsletter input.form-control:focus {
+	border-color: #f3af34 !important;
+	box-shadow: 0 0 0 0.25rem rgb(243, 175, 52, 25%) !important;
+	color: #f3af34;
+}
+
+.newsletter .btn {
+	background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+	border-radius: 4px;
+	padding: 19px;
+	width: 15rem;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.newsletter__user-email {
+	position: relative;
+}
+
+.newsletter__user-email label {
+	position: absolute;
+	font-size: 14px;
+	opacity: 1;
+	text-shadow: 2px 2px 5px #08090a;
+	top: 5px;
+	left: 25px;
+	font-family: "Open Sans", sans-serif;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #ffb548 !important;
+	opacity: 1; /* Firefox */
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #ffb548 !important;
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #ffb548 !important;
+	text-shadow: 2px 2px 5px #08090a;
+}
+
+/* End Newsletter */

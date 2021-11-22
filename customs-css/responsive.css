@@ -30,6 +30,44 @@
 	}
 
 	/* End System */
+
+	/* Start Top Scores */
+	.top-scores__heading {
+		padding-top: 7.254rem;
+	}
+	/* End Top Scores */
+
+	/* Start Newsletter */
+
+	.newsletter {
+		background-position: -19%;
+	}
+
+	.newsletter__user-email label {
+		opacity: 0.5;
+		text-shadow: none;
+	}
+
+	::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: #ffb548 !important;
+		opacity: 1; /* Firefox */
+		text-shadow: none;
+	}
+
+	:-ms-input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: #ffb548 !important;
+		text-shadow: none;
+	}
+
+	::-ms-input-placeholder {
+		/* Microsoft Edge */
+		color: #ffb548 !important;
+		text-shadow: none;
+	}
+
+	/* End Newsletter */
 }
 
 /* Resolusi Laptop Kecil */
@@ -192,6 +230,35 @@
 	}
 
 	/* End Top-Scores */
+
+	/* Start Newsletter */
+
+	.newsletter {
+		background-position: 10% 160%;
+		text-align: left;
+	}
+
+	.newsletter h3 {
+		font-size: 24px;
+		padding: 2.5rem 16rem 0 0;
+		background-color: transparent;
+	}
+
+	.newsletter h1 {
+		font-size: 56px;
+		line-height: 75px;
+	}
+
+	.newsletter p {
+		font-size: 18px;
+		background-color: transparent;
+	}
+
+	.newsletter .btn {
+		width: 11rem;
+	}
+
+	/* End Newsletter */
 }
 
 /* Resolusi Laptop Sedang */
@@ -218,4 +285,20 @@
 	} /* Membuat & memberi panjang garis putih */
 
 	/* End Features */
+
+	/* Start Newsletter */
+
+	.newsletter {
+		background-position: 20% 125%;
+	}
+
+	.newsletter h3 {
+		padding: 3.5rem 23rem 0 0;
+	}
+
+	.newsletter h1 {
+		font-size: 65px;
+	}
+
+	/* End Newsletter */
 }
