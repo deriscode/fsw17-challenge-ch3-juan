@@ -89,7 +89,7 @@
 		<!-- End Header -->
 
 		<!-- Start Gallery -->
-		<section class="gallery">
+		<section id="gallery" class="gallery">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-4 gallery__text text-white">
@@ -119,7 +119,7 @@
 		<!-- End Gallery -->
 
 		<!-- Start Features -->
-		<section class="features">
+		<section id="features" class="features">
 			<div class="container">
 				<div class="row justify-content-end">
 					<div class="col-12 col-lg-5 features__text">
@@ -148,7 +148,7 @@
 		<!-- End Features -->
 
 		<!-- Start System -->
-		<section class="system">
+		<section id="system" class="system">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 text-center">
@@ -212,7 +212,7 @@
 		<!-- End System -->
 
 		<!-- Start Top-Scores -->
-		<section class="top-scores">
+		<section id="top-scores" class="top-scores">
 			<div class="container">
 				<div class="row">
 					<!-- Start Top Scores Heading -->
@@ -231,18 +231,18 @@
 							<!-- Start Reviewer 1 -->
 							<div class="col-11 col-lg-9 offset-lg-3 top-scores__review">
 								<div class="row">
-									<div class="col-3">
+									<div class="col-3 col-lg-2">
 										<img
 											src="assets/image-8.jpg"
 											alt="Reviewer Evan Lahti"
 											class="img-fluid rounded-circle top-scores__review-img"
 										/>
 									</div>
-									<div class="col-7 top-scores__profile">
+									<div class="col-7 col-lg-8 top-scores__profile">
 										<p class="mb-0 pt-2">Evan Lahti</p>
 										<p class="mb-0">PC Gamer</p>
 									</div>
-									<div class="col-2 align-self-center">
+									<div class="col-2 col-lg-2 align-self-center">
 										<i class="fab fa-twitter top-scores__profile-socmed"></i>
 									</div>
 									<div class="col-12 top-scores__quote mt-4">
@@ -256,18 +256,18 @@
 							<!-- Start Reviewer 2 -->
 							<div class="col-11 col-lg-9 top-scores__review">
 								<div class="row">
-									<div class="col-3">
+									<div class="col-3 col-lg-2">
 										<img
 											src="assets/image.jpg"
 											alt="Reviewer Jada Griffin"
 											class="img-fluid rounded-circle top-scores__review-img"
 										/>
 									</div>
-									<div class="col-7 top-scores__profile">
+									<div class="col-7 col-lg-8 top-scores__profile">
 										<p class="mb-0 pt-2">Jada Griffin</p>
 										<p class="mb-0">Nerdreactor</p>
 									</div>
-									<div class="col-2 align-self-center">
+									<div class="col-2 col-lg-2 align-self-center">
 										<i class="fab fa-twitter top-scores__profile-socmed"></i>
 									</div>
 									<div class="col-12 top-scores__quote mt-4">
@@ -281,18 +281,18 @@
 							<!-- Start Reviewer 3 -->
 							<div class="col-11 col-lg-9 offset-lg-2 top-scores__review">
 								<div class="row">
-									<div class="col-3">
+									<div class="col-3 col-lg-2">
 										<img
 											src="assets/image-1.jpg"
 											alt="Reviewer Aaron Williams"
 											class="img-fluid rounded-circle top-scores__review-img"
 										/>
 									</div>
-									<div class="col-7 top-scores__profile">
+									<div class="col-7 col-lg-8 top-scores__profile">
 										<p class="mb-0 pt-2">Aaron Williams</p>
 										<p class="mb-0">Uproxx</p>
 									</div>
-									<div class="col-2 align-self-center">
+									<div class="col-2 col-lg-2 align-self-center">
 										<i class="fab fa-twitter top-scores__profile-socmed"></i>
 									</div>
 									<div class="col-12 top-scores__quote mt-4">
@@ -311,7 +311,7 @@
 		<!-- End Top-Scores -->
 
 		<!-- Start Newsletter -->
-		<section class="newsletter">
+		<section id="newsletter" class="newsletter">
 			<div class="container">
 				<div class="row justify-content-md-end">
 					<div class="col-12 col-md-6 col-lg-6 offset-lg-6 text-white">
@@ -349,35 +349,43 @@
 					<div class="col-5 col-md-4 col-lg-8 offset-lg-1">
 						<ul class="nav flex-column flex-lg-row">
 							<li class="nav-item">
-								<a class="nav-link fw-bold" aria-current="page" href="#">MAIN</a>
+								<a class="nav-link fw-bold footer__link" aria-current="page" href="#">MAIN</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fw-bold" href="#">ABOUT</a>
+								<a class="nav-link fw-bold footer__link" href="#gallery">ABOUT</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fw-bold" href="#">GAME FEATURES</a>
+								<a class="nav-link fw-bold footer__link" href="#features">GAME FEATURES</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fw-bold" href="#">SYSTEM REQUIREMENTS</a>
+								<a class="nav-link fw-bold footer__link" href="#system">SYSTEM REQUIREMENTS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fw-bold" href="#">QUOTES</a>
+								<a class="nav-link fw-bold footer__link" href="#top-scores">QUOTES</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-7 col-md-5 col-lg-3">
 						<ul class="nav">
 							<li class="nav-item">
-								<a class="nav-link" href="#"><i class="fab fa-facebook-f footer__icon"></i></a>
+								<a class="nav-link footer__socmed" href="#"
+									><i class="fab fa-facebook-f footer__icon"></i
+								></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"><i class="fab fa-twitter footer__icon"></i></a>
+								<a class="nav-link footer__socmed" href="#"
+									><i class="fab fa-twitter footer__icon"></i
+								></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"><i class="fab fa-youtube footer__icon"></i></a>
+								<a class="nav-link footer__socmed" href="#"
+									><i class="fab fa-youtube footer__icon"></i
+								></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"><i class="fab fa-twitch footer__icon"></i></a>
+								<a class="nav-link footer__socmed" href="#"
+									><i class="fab fa-twitch footer__icon"></i
+								></a>
 							</li>
 						</ul>
 					</div>
