@@ -299,6 +299,9 @@
 	.newsletter h1 {
 		font-size: 65px;
 	}
+	.newsletter .btn {
+		width: 15rem;
+	}
 
 	/* End Newsletter */
 }

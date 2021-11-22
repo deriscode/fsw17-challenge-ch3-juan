@@ -423,16 +423,15 @@ body {
 	background-color: #080a0b;
 	background-image: url(../assets/newsletter-img.png);
 	background-repeat: no-repeat;
-	background-position: 196%;
+	background-position: center;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
 	padding: 10rem 0;
 }
 
 .newsletter h3 {
 	line-height: 28px;
 	letter-spacing: 2px;
-	font-size: 19px;
+	font-size: 17px;
 	text-shadow: 2px 2px 5px #08090a;
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -470,7 +469,7 @@ body {
 	background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
 	border-radius: 4px;
 	padding: 19px;
-	width: 15rem;
+	width: 10rem;
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Open Sans", sans-serif;
@@ -483,8 +482,8 @@ body {
 .newsletter__user-email label {
 	position: absolute;
 	font-size: 14px;
-	opacity: 1;
-	text-shadow: 2px 2px 5px #08090a;
+	opacity: 0.6;
+	text-shadow: 2px 2px 12px #08090a;
 	top: 5px;
 	left: 25px;
 	font-family: "Open Sans", sans-serif;
