@@ -7,6 +7,14 @@
 	} /* Membuat & memberi panjang garis putih */
 
 	/* End Features */
+
+	/* Start Footer */
+
+	.footer .footer__policy:nth-child(3) {
+		padding: 0 0 0 0.5rem !important;
+	}
+
+	/* End Footer */
 }
 
 /* Resolusi Tablet */
@@ -68,6 +76,22 @@
 	}
 
 	/* End Newsletter */
+
+	/* Start Footer */
+
+	.footer p {
+		padding-left: 28px;
+	}
+
+	.footer .footer__policy:nth-child(1) {
+		padding-right: 0.5rem !important;
+	}
+
+	.footer .footer__policy:nth-child(2) {
+		padding: 0 0.5rem !important;
+	}
+
+	/* End Footer */
 }
 
 /* Resolusi Laptop Kecil */
@@ -259,20 +283,29 @@
 	}
 
 	/* End Newsletter */
+
+	/* Start Footer */
+
+	.footer .nav-item a {
+		font-size: 12px;
+	}
+
+	.footer__icon {
+		font-size: 16px;
+	}
+
+	.footer hr {
+		margin: 4% 0 2% 8%;
+	}
+
+	.footer p {
+		font-size: 14px;
+	}
+
+	/* End Footer */
 }
 
 /* Resolusi Laptop Sedang */
-@media (min-width: 1099.98px) {
-	/* Start Features */
-
-	.features__timeline:before {
-		height: 69.5%;
-	} /* Membuat & memberi panjang garis putih */
-
-	/* End Features */
-}
-
-/* Resolusi Laptop Besar */
 @media (min-width: 1199.98px) {
 	/* Start Features */
 
@@ -304,4 +337,25 @@
 	}
 
 	/* End Newsletter */
+
+	/* Start Footer */
+
+	.footer hr {
+		width: 84.5% !important;
+		margin: 4% 0 2% 9%;
+	}
+
+	/* End Footer */
+}
+
+/* Resolusi Laptop Besar */
+@media (min-width: 1439.98px) {
+	/* Start Footer */
+
+	.footer hr {
+		width: 82% !important;
+		margin: 4% 0 2% 9%;
+	}
+
+	/* End Footer */
 }
